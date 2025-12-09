@@ -1,16 +1,19 @@
 /*  your css code here. If applicable */
-.parent{
+body{
+	background-color:rgb(250, 250, 250);
+}
+.cards-wrapper{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	
 }
-.parent > div{
+.card{
 	border:10px solid #ccc;
 	background-color:#fafafa;
 }
-.parent >h1{
+.card>h1{
 	font-size:1.5em;
 }
-.parent > p{
+.card> p{
 	font-size:0.75em;
 }
