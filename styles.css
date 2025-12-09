@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+.parent{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+}
+.parent > div{
+	border:10px solid #ccc;
+	background-color:#fafafa;
+}
+.parent >h1{
+	font-size:1.5em;
+}
+.parent > p{
+	font-size:0.75em;
+}
